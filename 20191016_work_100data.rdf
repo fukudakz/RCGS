@@ -1,0 +1,1681 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcndl="hhttp://ndl.go.jp/dcndl/terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:omeka="http://omeka.org/s/vocabs/o#" xmlns:rcgs="http://www.rcgs.jp/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000010">
+    <dc:type>video game</dc:type>
+    <dcterms:title>ゴッド・オブ・ウォーII 終焉への序曲 (2007)</dcterms:title>
+    <skos:prefLabel xml:lang="en">God of War II</skos:prefLabel>
+    <skos:prefLabel xml:lang="zh">戰神II</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">ゴッド・オブ・ウォーII 終焉への序曲</skos:prefLabel>
+    <dcterms:date>2007</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q2252689"/>
+    <rcgs:freebase>/m/0bzzd0</rcgs:freebase>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/god-of-war-ii"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/god-of-war-ii-special-edition"/>
+    <rdfs:seeAlso rdf:resource="https://ja.wikipedia.org/wiki/ゴッド・オブ・ウォーII_終焉への序曲"/>
+    <rcgs:imdb rdf:resource="https://www.imdb.com/title/tt0846694"/>
+    <dcterms:audience>18歳以上</dcterms:audience>
+    <schema:locationCreated>US</schema:locationCreated>
+    <schema:genre>ハックアンドスラッシュ</schema:genre>
+    <schema:genre>アクションアドベンチャーゲーム</schema:genre>
+    <schema:character>Kratos</schema:character>
+    <schema:gameLocation>ギリシャ</schema:gameLocation>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>ソニー・コンピュータエンタテインメント (1993-2016)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Sony Interactive Entertainment</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>SIE Santa Monica Studio (2016-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>SIE Santa Monica Studio</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0014180"/>
+    <rcgs:precedes rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0000789"/>
+    <rcgs:succeeds rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0004851"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q2252689 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000011">
+    <dc:type>video game</dc:type>
+    <dcterms:title>pop'n music (1998)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Pop'n Music</skos:prefLabel>
+    <skos:prefLabel xml:lang="zh">流行音乐</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">pop'n music</skos:prefLabel>
+    <skos:prefLabel xml:lang="ko">팝픈뮤직</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Pop'n stage</skos:altLabel>
+    <skos:altLabel xml:lang="ja">ポップンミュージック11</skos:altLabel>
+    <skos:altLabel xml:lang="ja">ポップンミュージック13 カーニバル</skos:altLabel>
+    <skos:altLabel xml:lang="ja">ポップンミュージック ベストヒッツ!</skos:altLabel>
+    <skos:altLabel xml:lang="ja">ポップンミュージック Best Hits!</skos:altLabel>
+    <skos:altLabel xml:lang="ja">ポップンミュージック16 PARTY♪</skos:altLabel>
+    <skos:altLabel xml:lang="ja">ポップンミュージック</skos:altLabel>
+    <skos:altLabel xml:lang="ja">ポップンミュージック14 FEVER!</skos:altLabel>
+    <skos:altLabel xml:lang="ja">ポップンミュージック16 パーティー♪</skos:altLabel>
+    <skos:altLabel xml:lang="ja">ポップンミュージック15 アドベンチャー</skos:altLabel>
+    <skos:altLabel xml:lang="ja">ポップンミュージック12 いろは</skos:altLabel>
+    <skos:altLabel xml:lang="ja">ポップンミュージック アニメーションメロディ</skos:altLabel>
+    <skos:altLabel xml:lang="ja">ポップンミュージック15 ADVENTURE</skos:altLabel>
+    <skos:altLabel xml:lang="ja">ポップンミュージック14 フィーバー!</skos:altLabel>
+    <skos:altLabel xml:lang="ja">ポップンミュージック10</skos:altLabel>
+    <skos:altLabel xml:lang="ja">Pop'nmusic</skos:altLabel>
+    <skos:altLabel xml:lang="ko">파픈 뮤직</skos:altLabel>
+    <skos:altLabel xml:lang="ko">Pop'n music</skos:altLabel>
+    <skos:altLabel xml:lang="ko">팝픈 뮤직</skos:altLabel>
+    <skos:altLabel xml:lang="ko">파픈뮤직</skos:altLabel>
+    <dcterms:date>1998</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q1322437"/>
+    <rcgs:freebase>/m/03m7sm</rcgs:freebase>
+    <rdfs:seeAlso rdf:resource="https://ja.wikipedia.org/wiki/Pop'n_music"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>リズムゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>コナミ (1991-2015)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Konami</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0008361"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q1322437 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000012">
+    <dc:type>video game</dc:type>
+    <dcterms:title>THE 地球防衛軍 (2005)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Global Defence Force</skos:prefLabel>
+    <skos:prefLabel xml:lang="zh">THE 地球防衛軍2</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">THE 地球防衛軍</skos:prefLabel>
+    <skos:altLabel xml:lang="ja">THE 地球防衛軍2</skos:altLabel>
+    <skos:altLabel xml:lang="ja">地球防衛軍2 PORTABLE</skos:altLabel>
+    <dcterms:date>2005</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q5570229"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/global-defence-force"/>
+    <rdfs:seeAlso rdf:resource="https://ja.wikipedia.org/wiki/THE_地球防衛軍"/>
+    <dcterms:audience>12歳以上</dcterms:audience>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>サードパーソン・シューティングゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>ディースリー・パブリッシャー (1999-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>D3 Publisher</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>サンドロット (2001-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Sandlot</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0019364"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q5570229 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000013">
+    <dc:type>video game series,media franchise</dc:type>
+    <dcterms:title>トゥームレイダー (1996)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Tomb Raider</skos:prefLabel>
+    <skos:prefLabel xml:lang="zh">古墓丽影系列</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">トゥームレイダー</skos:prefLabel>
+    <skos:prefLabel xml:lang="ko">툼 레이더</skos:prefLabel>
+    <skos:altLabel xml:lang="zh">古墓丽影</skos:altLabel>
+    <skos:altLabel xml:lang="zh">盜墓者</skos:altLabel>
+    <skos:altLabel xml:lang="zh">古墓奇兵系列</skos:altLabel>
+    <skos:altLabel xml:lang="zh">盜墓者羅拉系列</skos:altLabel>
+    <skos:altLabel xml:lang="zh">古墓奇兵</skos:altLabel>
+    <skos:altLabel xml:lang="zh">盜墓者羅拉</skos:altLabel>
+    <dcterms:date>1996</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q270503"/>
+    <rdfs:seeAlso rdf:resource="https://ja.wikipedia.org/wiki/トゥームレイダー"/>
+    <schema:genre>アクションアドベンチャーゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>Eidos Interactive, Inc.  (1990-2003)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Eidos Interactive</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>スクウェア・エニックス (2003-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Square Enix</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>Core Design Limited  (1988-2006)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Core Design</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>Crystal Dynamics (1992-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Crystal Dynamics</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>Nixxes Software (1999-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Nixxes Software</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>Ubisoft Milan (1998-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Ubisoft Milan</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0007249"/>
+    <rcgs:succeeds rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0005482"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q270503 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000014">
+    <dc:type>video game</dc:type>
+    <dcterms:title>アルバートオデッセイII 邪神の胎動 (1994)</dcterms:title>
+    <skos:prefLabel xml:lang="ja">アルバートオデッセイII 邪神の胎動</skos:prefLabel>
+    <dcterms:date>1994</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q17192216"/>
+    <rdfs:seeAlso rdf:resource="https://ja.wikipedia.org/wiki/アルバートオデッセイII_邪神の胎動"/>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0004953"/>
+    <rcgs:precedes rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0000453"/>
+    <rcgs:succeeds rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0000454"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q17192216 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000015">
+    <dc:type>video game</dc:type>
+    <dcterms:title>2002 FIFA World Cup (2002)</dcterms:title>
+    <skos:prefLabel xml:lang="en">2002 FIFA World Cup</skos:prefLabel>
+    <dcterms:date>2002</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q2322709"/>
+    <rcgs:freebase>/m/02ppvhl</rcgs:freebase>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/2002-fifa-world-cup"/>
+    <schema:genre>スポーツゲーム</schema:genre>
+    <schema:gameLocation>日本</schema:gameLocation>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>Electronic Arts (1982-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>EA Sports</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>EA Canada (1991-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>EA Vancouver</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0011742"/>
+    <rcgs:succeeds rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0002732"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q2322709 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000016">
+    <dc:type>video game</dc:type>
+    <dcterms:title>かまいたちの夜2 監獄島のわらべ唄 (2002)</dcterms:title>
+    <skos:prefLabel xml:lang="zh">恐怖惊魂夜2 监狱岛的童谣</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">かまいたちの夜2 監獄島のわらべ唄</skos:prefLabel>
+    <skos:altLabel xml:lang="zh">（日）</skos:altLabel>
+    <dcterms:date>2002</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q17225945"/>
+    <rdfs:seeAlso rdf:resource="https://ja.wikipedia.org/wiki/かまいたちの夜2_監獄島のわらべ唄"/>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0011810"/>
+    <rcgs:precedes rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0000273"/>
+    <rcgs:succeeds rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0003164"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q17225945 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000017">
+    <dc:type>video game</dc:type>
+    <dcterms:title>A/X-101 (1994)</dcterms:title>
+    <skos:prefLabel xml:lang="en">A/X-101</skos:prefLabel>
+    <dcterms:date>1994</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q2819596"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/ax-101"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>ファーストパーソン・シューティングゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>セガ・エンタープライゼス (1965-2000)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Sega</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>マイクロネット (1982-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Micronet co., Ltd.</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0002322"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q2819596 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000018">
+    <dc:type>video game</dc:type>
+    <dcterms:title>シャイニング・アーク (2013)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Shining Ark</skos:prefLabel>
+    <skos:prefLabel xml:lang="zh">光明之舟</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">シャイニング・アーク</skos:prefLabel>
+    <dcterms:date>2013</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q603984"/>
+    <rcgs:freebase>/m/0ngv32n</rcgs:freebase>
+    <rdfs:seeAlso rdf:resource="https://ja.wikipedia.org/wiki/シャイニング・アーク"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>コンピュータRPG</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>セガ・エンタープライゼス (1965-2000)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Sega</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>メディア・ビジョン株式会社 (1993-2003)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Media.Vision</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0019824"/>
+    <rcgs:precedes rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0003206"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q603984 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000019">
+    <dc:type>video game</dc:type>
+    <dcterms:title>A Bug's Life (1998)</dcterms:title>
+    <skos:prefLabel xml:lang="en">A Bug's Life</skos:prefLabel>
+    <dcterms:date>1998</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q1171293"/>
+    <rcgs:freebase>/m/0762lm</rcgs:freebase>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/disneypixar-a-bugs-life"/>
+    <schema:locationCreated>GB</schema:locationCreated>
+    <schema:genre>プラットフォーム・ゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>ディズニー・インタラクティブ・スタジオ (1988-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Disney Interactive Studios</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>Traveller's Tales (1989-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Traveller's Tales</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0008778"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q1171293 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000020">
+    <dc:type>video game</dc:type>
+    <dcterms:title>スーパーテトリス3 (1994)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Super Tetris 3</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">スーパーテトリス3</skos:prefLabel>
+    <skos:altLabel xml:lang="ja">マジカリス</skos:altLabel>
+    <skos:altLabel xml:lang="ja">スパークリス</skos:altLabel>
+    <skos:altLabel xml:lang="ja">ファミリーテトリス</skos:altLabel>
+    <dcterms:date>1994</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q11313779"/>
+    <rdfs:seeAlso rdf:resource="https://ja.wikipedia.org/wiki/スーパーテトリス3"/>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0004933"/>
+    <rcgs:precedes rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0001193"/>
+    <rcgs:succeeds rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0003911"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q11313779 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000021">
+    <dc:type>video game</dc:type>
+    <dcterms:title>スーパーボンバーマン (1993)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Super Bomberman</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">スーパーボンバーマン</skos:prefLabel>
+    <dcterms:date>1993</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q2702756"/>
+    <rcgs:freebase>/m/0d39kn</rcgs:freebase>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/super-bomberman"/>
+    <rdfs:seeAlso rdf:resource="https://ja.wikipedia.org/wiki/スーパーボンバーマン"/>
+    <rcgs:imdb rdf:resource="https://www.imdb.com/title/tt4797462"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>アクションゲーム</schema:genre>
+    <schema:genre>迷路ゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <skos:prefLabel>Japan</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>ハドソン (1973-2012)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Hudson Soft</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0004418"/>
+    <rcgs:precedes rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0001679"/>
+    <rcgs:succeeds rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0001680"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q2702756 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000022">
+    <dc:type>video game</dc:type>
+    <dcterms:title>スーパー桃太郎電鉄III (1995)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Super Momotaro Dentetsu Ⅲ</skos:prefLabel>
+    <skos:prefLabel xml:lang="zh">超級桃太郎電鐵III</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">スーパー桃太郎電鉄III</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Super Momotaro Dentetsu 3</skos:altLabel>
+    <skos:altLabel xml:lang="en">Super Momotarou Dentetsu 3</skos:altLabel>
+    <skos:altLabel xml:lang="en">Super Momotetsu 3</skos:altLabel>
+    <skos:altLabel xml:lang="ja">スーパー桃太郎電鉄3</skos:altLabel>
+    <dcterms:date>1995</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q11313985"/>
+    <rdfs:seeAlso rdf:resource="https://ja.wikipedia.org/wiki/スーパー桃太郎電鉄III"/>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0004095"/>
+    <rcgs:precedes rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0001047"/>
+    <rcgs:precedes rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0001045"/>
+    <rcgs:precedes rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0002375"/>
+    <rcgs:succeeds rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0001046"/>
+    <rcgs:succeeds rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0002379"/>
+    <rcgs:succeeds rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0002378"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q11313985 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000023">
+    <dc:type>video game</dc:type>
+    <dcterms:title>All Star Tennis '99 (1998)</dcterms:title>
+    <skos:prefLabel xml:lang="en">All Star Tennis '99</skos:prefLabel>
+    <dcterms:date>1998</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q3571784"/>
+    <rcgs:freebase>/m/0fw7n2</rcgs:freebase>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/all-star-tennis-99"/>
+    <schema:locationCreated>GB</schema:locationCreated>
+    <schema:genre>スポーツゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>Ubisoft Entertainment S.A. (1986-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Ubisoft</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0008852"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q3571784 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000024">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Agile Warrior F-111X (1996)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Agile Warrior F-111X</skos:prefLabel>
+    <dcterms:date>1996</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q53938350"/>
+    <schema:locationCreated>US</schema:locationCreated>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0006787"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q53938350 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000025">
+    <dc:type>video game</dc:type>
+    <dcterms:title>アクセルブリッド (1993)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Accele Brid</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">アクセルブリッド</skos:prefLabel>
+    <dcterms:date>1993</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q2496494"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/accele-brid"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>アクションゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>トミー (1963-2006)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Tomy</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>元気株式会社 (1990-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Genki</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0004542"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q2496494 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000026">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Allied General (1996)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Allied General</skos:prefLabel>
+    <dcterms:date>1996</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q4732574"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/allied-general"/>
+    <schema:locationCreated>US</schema:locationCreated>
+    <schema:genre>ターン制ストラテジー</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>Mindscape (1983-2001)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Mindscape</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>Strategic Simulations, Inc. (1979-1994)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Strategic Simulations</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0007401"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q4732574 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000027">
+    <dc:type>video game</dc:type>
+    <dcterms:title>ディシディア デュオデシム ファイナルファンタジー (2011)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Dissidia 012 Final Fantasy</skos:prefLabel>
+    <skos:prefLabel xml:lang="zh">最終幻想 紛爭012</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">ディシディア デュオデシム ファイナルファンタジー</skos:prefLabel>
+    <skos:altLabel xml:lang="zh">紛爭 012：最終幻想</skos:altLabel>
+    <skos:altLabel xml:lang="zh">Dissidia 012 Final Fantasy</skos:altLabel>
+    <skos:altLabel xml:lang="ja">DDFF</skos:altLabel>
+    <dcterms:date>2011</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q2530636"/>
+    <rcgs:freebase>/m/0czbcvm</rcgs:freebase>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/dissidia-012-duodecim-final-fantasy"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/dissidia-012-final-fantasy-legacy-edition"/>
+    <rdfs:seeAlso rdf:resource="https://ja.wikipedia.org/wiki/ディシディア_デュオデシム_ファイナルファンタジー"/>
+    <rcgs:imdb rdf:resource="https://www.imdb.com/title/tt1827393"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>対戦格闘ゲーム</schema:genre>
+    <schema:genre>クロスオーバー作品</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>スクウェア・エニックス (2003-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Square Enix</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>スクウェア・エニックス (2003-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Square Enix</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0019343"/>
+    <rcgs:precedes rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0001206"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q2530636 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000028">
+    <dc:type>video game</dc:type>
+    <dcterms:title>ニード・フォー・スピード モスト・ウォンテッド5-1-0 (2005)</dcterms:title>
+    <skos:prefLabel xml:lang="zh">极品飞车：最高通輯：5-1-0</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">ニード・フォー・スピード モスト・ウォンテッド5-1-0</skos:prefLabel>
+    <skos:altLabel xml:lang="ja">ニード・フォー・スピード モストウォンテッド5-1-0</skos:altLabel>
+    <dcterms:date>2005</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q4045151"/>
+    <rdfs:seeAlso rdf:resource="https://ja.wikipedia.org/wiki/ニード・フォー・スピード_モスト・ウォンテッド5-1-0"/>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0018483"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q4045151 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000029">
+    <dc:type>video game series</dc:type>
+    <dcterms:title>All-Star Baseball</dcterms:title>
+    <skos:prefLabel xml:lang="en">All-Star Baseball</skos:prefLabel>
+    <skos:prefLabel xml:lang="zh">全明星棒球 2004</skos:prefLabel>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q2837387"/>
+    <rcgs:freebase>/m/06w415</rcgs:freebase>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/all-star-baseball-2003_"/>
+    <schema:genre>スポーツゲーム</schema:genre>
+    <schema:gameLocation>ワシントンD.C.</schema:gameLocation>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0011553"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q2837387 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000030">
+    <dc:type>video game</dc:type>
+    <dcterms:title>ファイナルファンタジーXII (2006)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Final Fantasy XII</skos:prefLabel>
+    <skos:prefLabel xml:lang="zh">最终幻想XII</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">ファイナルファンタジーXII</skos:prefLabel>
+    <skos:prefLabel xml:lang="ko">파이널 판타지 XII</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Final Fantasy</skos:altLabel>
+    <skos:altLabel xml:lang="en">Final Fantasy game</skos:altLabel>
+    <skos:altLabel xml:lang="en">Final Fantasy xii</skos:altLabel>
+    <skos:altLabel xml:lang="en">Final Fantasy xii game</skos:altLabel>
+    <skos:altLabel xml:lang="en">Final Fantasy XII game</skos:altLabel>
+    <skos:altLabel xml:lang="zh">巴夫雷亞</skos:altLabel>
+    <skos:altLabel xml:lang="zh">最終幻想XII</skos:altLabel>
+    <skos:altLabel xml:lang="zh">太空戰士XII</skos:altLabel>
+    <skos:altLabel xml:lang="zh">Ff12</skos:altLabel>
+    <skos:altLabel xml:lang="zh">Final Fantasy 12</skos:altLabel>
+    <skos:altLabel xml:lang="ja">Final Fantasy XII</skos:altLabel>
+    <skos:altLabel xml:lang="ja">FF12</skos:altLabel>
+    <skos:altLabel xml:lang="ja">ファイナルファンタジー12</skos:altLabel>
+    <skos:altLabel xml:lang="ja">Vaan</skos:altLabel>
+    <skos:altLabel xml:lang="ja">FFXII</skos:altLabel>
+    <dcterms:date>2006</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q327594"/>
+    <rcgs:freebase>/m/03ln5k</rcgs:freebase>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/final-fantasy-xii"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/final-fantasy-xii-collectors-edition"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/final-fantasy-xii-international-zodiac-job-system"/>
+    <rdfs:seeAlso rdf:resource="https://ja.wikipedia.org/wiki/ファイナルファンタジーXII"/>
+    <rcgs:imdb rdf:resource="https://www.imdb.com/title/tt0388944"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>コンピュータRPG</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>スクウェア・エニックス (2003-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Square Enix</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>スクウェア・エニックス (2003-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Square Enix</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0013622"/>
+    <rcgs:precedes rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0001537"/>
+    <rcgs:succeeds rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0001539"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q327594 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000031">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Ardy Lightfoot (1993)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Ardy Lightfoot</skos:prefLabel>
+    <dcterms:date>1993</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q1408193"/>
+    <rcgs:freebase>/m/04f7qq</rcgs:freebase>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/ardy-lightfoot"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>プラットフォーム・ゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>アスキー (1977-2008)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>ASCII Corporation</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>アスキー (1977-2008)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>ASCII Corporation</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0004544"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q1408193 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000032">
+    <dc:type>video game</dc:type>
+    <dcterms:title>マッスルボマー (1993)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Saturday Night Slam Masters</skos:prefLabel>
+    <skos:prefLabel xml:lang="zh">摔跤霸王</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">マッスルボマー</skos:prefLabel>
+    <dcterms:date>1993</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q2019441"/>
+    <rcgs:freebase>/m/0716_j</rcgs:freebase>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/saturday-night-slam-masters"/>
+    <rdfs:seeAlso rdf:resource="https://ja.wikipedia.org/wiki/マッスルボマー"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>対戦格闘ゲーム</schema:genre>
+    <schema:gameLocation>日本</schema:gameLocation>
+    <schema:gameLocation>ロシア</schema:gameLocation>
+    <schema:gameLocation>メキシコ</schema:gameLocation>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>カプコン (1983-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Capcom</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>カプコン (1983-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Capcom</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0004693"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q2019441 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000033">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Battle Grand Prix (1992)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Battle Grand Prix</skos:prefLabel>
+    <dcterms:date>1992</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q3636845"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/battle-grand-prix"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>レースゲーム</schema:genre>
+    <schema:gameLocation>カナダ</schema:gameLocation>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>ハドソン (1973-2012)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Hudson Soft</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>キッド (1988-2006)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>KID</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0004187"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q3636845 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000034">
+    <dc:type>video game</dc:type>
+    <dcterms:title>戦場のヴァルキュリア2 (2010)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Valkyria Chronicles II</skos:prefLabel>
+    <skos:prefLabel xml:lang="zh">戰場女武神2 加利亞王立士官學校</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">戦場のヴァルキュリア2</skos:prefLabel>
+    <skos:altLabel xml:lang="zh">戰場女武神2</skos:altLabel>
+    <skos:altLabel xml:lang="ja">戦場のヴァルキュリア2 ガリア王立士官学校</skos:altLabel>
+    <dcterms:date>2010</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q2444946"/>
+    <rcgs:freebase>/m/06zmmcp</rcgs:freebase>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/valkyria-chronicles-ii"/>
+    <rdfs:seeAlso rdf:resource="https://ja.wikipedia.org/wiki/戦場のヴァルキュリア2"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>恋愛映画</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>セガ・エンタープライゼス (1965-2000)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Sega</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>セガ (2000-2015)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Sega</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0018991"/>
+    <rcgs:precedes rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0002295"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q2444946 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000035">
+    <dc:type>video game</dc:type>
+    <dcterms:title>伝説のオウガバトル (1993)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Ogre Battle: The March of the Black Queen</skos:prefLabel>
+    <skos:prefLabel xml:lang="zh">傳說之奧加戰爭</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">伝説のオウガバトル</skos:prefLabel>
+    <skos:altLabel xml:lang="zh">皇家騎士團</skos:altLabel>
+    <skos:altLabel xml:lang="zh">皇家騎士團外傳</skos:altLabel>
+    <dcterms:date>1993</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q2734372"/>
+    <rcgs:freebase>/m/04926_</rcgs:freebase>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/ogre-battle"/>
+    <rdfs:seeAlso rdf:resource="https://ja.wikipedia.org/wiki/伝説のオウガバトル"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>シミュレーションロールプレイングゲーム</schema:genre>
+    <schema:genre>リアルタイムタクティクス</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>クエスト (1988-2002)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Quest Corporation</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>クエスト (1988-2002)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Quest Corporation</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0007041"/>
+    <rcgs:succeeds rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0001123"/>
+    <rcgs:succeeds rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0003162"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q2734372 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000036">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Black Hole Assault (1992)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Black Hole Assault</skos:prefLabel>
+    <dcterms:date>1992</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q2905556"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/blackhole-assault"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>対戦格闘ゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>マイクロネット (1982-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Micronet co., Ltd.</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0001730"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q2905556 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000037">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Ballistix (1989)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Ballistix</skos:prefLabel>
+    <dcterms:date>1989</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q2881306"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/ballistix"/>
+    <schema:locationCreated>GB</schema:locationCreated>
+    <schema:genre>スポーツゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>SCE Studio Liverpool (1984-2012)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>SCE Studio Liverpool</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>Ubisoft Reflections</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Ubisoft Reflections</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0001559"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q2881306 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000038">
+    <dc:type>video game</dc:type>
+    <dcterms:title>第2次スーパーロボット大戦α (2003)</dcterms:title>
+    <skos:prefLabel xml:lang="en">2nd Super Robot Wars Alpha</skos:prefLabel>
+    <skos:prefLabel xml:lang="zh">第2次超級機器人大戰α</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">第2次スーパーロボット大戦α</skos:prefLabel>
+    <skos:altLabel xml:lang="zh">第2次機器人大戰</skos:altLabel>
+    <dcterms:date>2003</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q3598734"/>
+    <rdfs:seeAlso rdf:resource="https://ja.wikipedia.org/wiki/第2次スーパーロボット大戦α"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>シミュレーションロールプレイングゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>バンプレスト (1989-2008)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Banpresto</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>バンプレスト (1989-2008)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Banpresto</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0012087"/>
+    <rcgs:precedes rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0003229"/>
+    <rcgs:precedes rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0003231"/>
+    <rcgs:succeeds rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0002530"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q3598734 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000039">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Bloody Roar 2 (1999)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Bloody Roar 2</skos:prefLabel>
+    <skos:prefLabel xml:lang="ko">블러디 로어 2</skos:prefLabel>
+    <dcterms:date>1999</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q2201095"/>
+    <rcgs:freebase>/m/026f3zg</rcgs:freebase>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/bloody-roar-ii"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>対戦格闘ゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>ヴァージン・インタラクティブ・エンターテインメント株式会社 (1993-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Virgin Interactive</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>エイティング (1993-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Eighting</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0008313"/>
+    <rcgs:precedes rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0005077"/>
+    <rcgs:succeeds rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0004854"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q2201095 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000040">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Blue Almanac (1991)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Blue Almanac</skos:prefLabel>
+    <dcterms:date>1991</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q2419838"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/blue-almanac"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>コンピュータRPG</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>講談社 (1958-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Kodansha</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>ホット・ビィ (1983-1993)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Hot B</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0002012"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q2419838 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000041">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Britney Spears products (2002)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Britney Spears products</skos:prefLabel>
+    <skos:prefLabel xml:lang="zh">Britney's Dance Beat 布蘭妮：勁舞告白</skos:prefLabel>
+    <dcterms:date>2002</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q2997527"/>
+    <rcgs:freebase>/m/0flwws</rcgs:freebase>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0011881"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q2997527 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000042">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Broken Sword: The Sleeping Dragon (2003)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Broken Sword: The Sleeping Dragon</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Broken Sword 3: The Sleeping Dragon</skos:altLabel>
+    <skos:altLabel xml:lang="en">Broken Sword 3 - The Sleeping Dragon</skos:altLabel>
+    <dcterms:date>2003</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q2567348"/>
+    <rcgs:freebase>/m/08zhby</rcgs:freebase>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/broken-sword-the-sleeping-dragon"/>
+    <rcgs:metacritic rdf:resource="https://www.metacritic.com/game/pc/broken-sword-the-sleeping-dragon"/>
+    <schema:locationCreated>GB</schema:locationCreated>
+    <schema:genre>アドベンチャーゲーム</schema:genre>
+    <schema:gameLocation>パリ</schema:gameLocation>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>THQ (1995-2012)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>THQ</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>Revolution Software (1990-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Revolution Software</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0012846"/>
+    <rcgs:precedes rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0005078"/>
+    <rcgs:succeeds rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0004856"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q2567348 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000043">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Bug Too! (1996)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Bug Too!</skos:prefLabel>
+    <dcterms:date>1996</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q2927686"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/bug-too"/>
+    <schema:locationCreated>US</schema:locationCreated>
+    <schema:genre>アクションゲーム</schema:genre>
+    <schema:genre>プラットフォーム・ゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>セガ・エンタープライゼス (1965-2000)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Sega</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>Realtime Associates (1986-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Realtime Associates</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0006061"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q2927686 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000044">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Burnout 3: Takedown (2004)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Burnout 3: Takedown</skos:prefLabel>
+    <dcterms:date>2004</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q2079604"/>
+    <rcgs:freebase>/m/05mg_q</rcgs:freebase>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/burnout-3-takedown"/>
+    <schema:locationCreated>GB</schema:locationCreated>
+    <schema:genre>レースゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>Electronic Arts (1982-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Electronic Arts</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>Criterion Software Limited (1993-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Criterion Games</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0012862"/>
+    <rcgs:succeeds rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0005298"/>
+    <rcgs:succeeds rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0004163"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q2079604 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000045">
+    <dc:type>video game</dc:type>
+    <dcterms:title>コール オブ デューティ ゴースト (2013)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Call of Duty: Ghosts</skos:prefLabel>
+    <skos:prefLabel xml:lang="zh">决胜时刻：魅影</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">コール オブ デューティ ゴースト</skos:prefLabel>
+    <skos:prefLabel xml:lang="ko">콜 오브 듀티: 고스트</skos:prefLabel>
+    <dcterms:date>2013</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q12147068"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/call-of-duty-ghosts"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/call-of-duty-ghosts-prestige-edition"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/call-of-duty-ghosts-hardened-edition"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/call-of-duty-ghosts_"/>
+    <rcgs:metacritic rdf:resource="https://www.metacritic.com/game/pc/call-of-duty-ghosts"/>
+    <rcgs:metacritic rdf:resource="https://www.metacritic.com/game/playstation-4/call-of-duty-ghosts"/>
+    <rcgs:metacritic rdf:resource="https://www.metacritic.com/game/xbox-one/call-of-duty-ghosts"/>
+    <rcgs:metacritic rdf:resource="https://www.metacritic.com/game/wii-u/call-of-duty-ghosts"/>
+    <rdfs:seeAlso rdf:resource="https://ja.wikipedia.org/wiki/コール_オブ_デューティ_ゴースト"/>
+    <schema:locationCreated>US</schema:locationCreated>
+    <schema:genre>ファーストパーソン・シューティングゲーム</schema:genre>
+    <schema:gameLocation>カリフォルニア州</schema:gameLocation>
+    <schema:gameLocation>ニューヨーク</schema:gameLocation>
+    <schema:gameLocation>ブラジル</schema:gameLocation>
+    <schema:gameLocation>メキシコ</schema:gameLocation>
+    <schema:gameLocation>コロンビア</schema:gameLocation>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>Activision Publishing (2000-2007)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Activision Publishing, Inc.</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>Infinity Ward, Inc. (2002-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Infinity Ward</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0021068"/>
+    <rcgs:precedes rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0000779"/>
+    <rcgs:precedes rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0000782"/>
+    <rcgs:precedes rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0003588"/>
+    <rcgs:succeeds rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0000780"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q12147068 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000046">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Carrier (2000)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Carrier</skos:prefLabel>
+    <dcterms:date>2000</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q2891411"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/carrier"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>サバイバルホラー</schema:genre>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>ジャレコ (1983-2000)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Jaleco</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0010712"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q2891411 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000047">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Covert Ops: Nuclear Dawn (2000)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Covert Ops: Nuclear Dawn</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Chase the Express</skos:altLabel>
+    <dcterms:date>2000</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q3666820"/>
+    <rcgs:freebase>/m/07t16l</rcgs:freebase>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/covert-ops-nuclear-dawn"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>サードパーソン・シューティングゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>ソニー・コンピュータエンタテインメント (1993-2016)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Sony Interactive Entertainment</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>ソニー・インタラクティブエンタテインメント (2016-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Sony Interactive Entertainment</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0008977"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q3666820 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000048">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Combination Pro Soccer (1998)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Combination Pro Soccer</skos:prefLabel>
+    <dcterms:date>1998</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q5150804"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>スポーツゲーム</schema:genre>
+    <schema:gameLocation>日本</schema:gameLocation>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>アクセラ (1996-2000)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Axela</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>空想科学</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Kuusoukagaku Corp.</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0007915"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q5150804 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000049">
+    <dc:type>video game</dc:type>
+    <dcterms:title>コマンドアンドコンカー:ジェネラルズ (2003)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Command &amp; Conquer: Generals</skos:prefLabel>
+    <skos:prefLabel xml:lang="zh">終極動員令：將軍</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">コマンドアンドコンカー:ジェネラルズ</skos:prefLabel>
+    <skos:prefLabel xml:lang="ko">커맨드 앤 컨커: 제너럴</skos:prefLabel>
+    <skos:altLabel xml:lang="zh">將軍系列</skos:altLabel>
+    <skos:altLabel xml:lang="zh">命令与征服：将军</skos:altLabel>
+    <skos:altLabel xml:lang="zh">命令与征服：将军1</skos:altLabel>
+    <skos:altLabel xml:lang="ko">커맨드 앤 컨커: 제너럴즈</skos:altLabel>
+    <dcterms:date>2003</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q820217"/>
+    <rcgs:freebase>/m/065pn7</rcgs:freebase>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/command-conquer-generals"/>
+    <schema:locationCreated>US</schema:locationCreated>
+    <schema:genre>リアルタイムストラテジー</schema:genre>
+    <schema:gameLocation>トルコ</schema:gameLocation>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>Electronic Arts (1982-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Electronic Arts</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>DICE Los Angeles (2013-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>DICE Los Angeles</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0035693"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q820217 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000050">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Cool Boarders 2 (1997)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Cool Boarders 2</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Cool Boarders 2: Killing Session</skos:altLabel>
+    <dcterms:date>1997</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q3788797"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/cool-boarders-2"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>3次元コンピュータグラフィックス</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>ソニー・コンピュータエンタテインメント (1993-2016)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Sony Interactive Entertainment</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>ウエップシステム (1985-2001)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>UEP Systems</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0007499"/>
+    <rcgs:precedes rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0005216"/>
+    <rcgs:succeeds rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0000051"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q3788797 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000051">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Cool Boarders 4 (1999)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Cool Boarders 4</skos:prefLabel>
+    <dcterms:date>1999</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q5167264"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/cool-boarders-4"/>
+    <schema:locationCreated>US</schema:locationCreated>
+    <schema:genre>snowboarding video game</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>989 Studios (1995-2005)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>989 Studios</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>Deck Nine Games (1997-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Deck Nine Games</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0009054"/>
+    <rcgs:precedes rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0000050"/>
+    <rcgs:succeeds rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0005333"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q5167264 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000052">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Cosmic Smash (2001)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Cosmic Smash</skos:prefLabel>
+    <dcterms:date>2001</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q5174105"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/cosmic-smash"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>スポーツ</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>セガ・エンタープライゼス (1965-2000)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Sega</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>ヒットメーカー (2000-2004)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Sega AM3</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0010951"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q5174105 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000053">
+    <dc:type>video game</dc:type>
+    <dcterms:title>クリーチャーショック (1996)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Creature Shock</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">クリーチャーショック</skos:prefLabel>
+    <dcterms:date>1996</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q739312"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/creature-shock"/>
+    <schema:locationCreated>GB</schema:locationCreated>
+    <schema:genre>ファーストパーソン・シューティングゲーム</schema:genre>
+    <schema:genre>シューティングゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>ヴァージン・インタラクティブ・エンターテインメント株式会社 (1993-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Virgin Interactive</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>アルゴノートゲームス (1999-2004)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Argonaut Games</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0005713"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q739312 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000054">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Crimson Sea (2002)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Crimson Sea</skos:prefLabel>
+    <dcterms:date>2002</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q5185708"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/crimson-sea"/>
+    <rcgs:metacritic rdf:resource="https://www.metacritic.com/game/xbox/crimson-sea"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>アクションゲーム</schema:genre>
+    <schema:genre>サードパーソン・シューティングゲーム</schema:genre>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>コーエー (1998-2009)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Koei</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0015716"/>
+    <rcgs:succeeds rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/WORK0005353"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q5185708 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000055">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Dance Dance Revolution・ディズニーミックス (2000)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Dance Dance Revolution Disney Mix</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">Dance Dance Revolution・ディズニーミックス</skos:prefLabel>
+    <dcterms:date>2000</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q5215074"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>音楽ゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>コナミ (1991-2015)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Konami</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>コナミ (1991-2015)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Konami</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0009472"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q5215074 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000056">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Darkstalkers Chronicle: The Chaos Tower (2004)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Darkstalkers Chronicle: The Chaos Tower</skos:prefLabel>
+    <dcterms:date>2004</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q3702771"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/darkstalkers-chronicle-the-chaos-tower"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>対戦格闘ゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>カプコン (1983-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Capcom</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0018205"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q3702771 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000057">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Dave Mirra Freestyle BMX (2000)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Dave Mirra Freestyle BMX</skos:prefLabel>
+    <dcterms:date>2000</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q5229396"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/dave-mirra-freestyle-bmx"/>
+    <rcgs:metacritic rdf:resource="https://www.metacritic.com/game/dreamcast/dave-mirra-freestyle-bmx"/>
+    <schema:locationCreated>US</schema:locationCreated>
+    <schema:genre>スポーツゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>Acclaim Entertainment (1987-2004)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Acclaim Entertainment</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>Underground Development (2008-2010)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Underground Development</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0009590"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q5229396 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000058">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Dead Moon (1991)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Dead Moon</skos:prefLabel>
+    <dcterms:date>1991</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q5245334"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/dead-moon"/>
+    <schema:genre>アクションゲーム</schema:genre>
+    <schema:genre>シューティングゲーム</schema:genre>
+    <schema:gameLocation>月</schema:gameLocation>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>ナツメ株式会社 (1987-2013)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Natsume</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>ナツメ株式会社 (1987-2013)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Natsume</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0001464"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q5245334 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000059">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Def Jam: Icon (2007)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Def Jam: Icon</skos:prefLabel>
+    <dcterms:date>2007</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q3021186"/>
+    <rcgs:freebase>/m/0263tfw</rcgs:freebase>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/def-jam-icon"/>
+    <schema:locationCreated>US</schema:locationCreated>
+    <schema:genre>対戦格闘ゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>Electronic Arts (1982-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Electronic Arts</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>Electronic Arts (1982-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Electronic Arts</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0021159"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q3021186 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000060">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Def Jam Vendetta (2003)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Def Jam Vendetta</skos:prefLabel>
+    <dcterms:date>2003</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q953855"/>
+    <rcgs:freebase>/m/03lr_d</rcgs:freebase>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/def-jam-vendetta"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>スポーツゲーム</schema:genre>
+    <schema:genre>プロレス</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>Electronic Arts (1982-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>EA Sports Big</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>シンソフィア (2007-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Syn Sophia</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0012254"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q953855 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000061">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Die Hard Trilogy (1996)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Die Hard Trilogy</skos:prefLabel>
+    <dcterms:date>1996</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q761941"/>
+    <rcgs:freebase>/m/06zgcv</rcgs:freebase>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/die-hard-trilogy"/>
+    <rcgs:imdb rdf:resource="https://www.imdb.com/title/tt0257548"/>
+    <schema:locationCreated>GB</schema:locationCreated>
+    <schema:genre>シューティングゲーム</schema:genre>
+    <schema:genre>サードパーソン・シューティングゲーム</schema:genre>
+    <schema:gameLocation>ニューヨーク</schema:gameLocation>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>Fox Interactive</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Fox Interactive</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>Acclaim Studios London (1999-2004)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Acclaim Studios London</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0006060"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q761941 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000062">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Disney's Tarzan (1999)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Disney's Tarzan</skos:prefLabel>
+    <dcterms:date>1999</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q3515891"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/disneys-tarzan"/>
+    <schema:locationCreated>GB</schema:locationCreated>
+    <schema:genre>プラットフォーム・ゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>Activision Publishing (2000-2007)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Activision Publishing, Inc.</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>Eurocom (1988-2012)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Eurocom</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0008856"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q3515891 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000063">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Double Switch (1994)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Double Switch</skos:prefLabel>
+    <skos:prefLabel xml:lang="zh">雙開關</skos:prefLabel>
+    <dcterms:date>1994</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q1853876"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/double-switch"/>
+    <rcgs:imdb rdf:resource="https://www.imdb.com/title/tt0183005"/>
+    <schema:genre>アドベンチャーゲーム</schema:genre>
+    <schema:genre>DVDプレイヤーズゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>セガ・エンタープライゼス (1965-2000)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Sega</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>Digital Pictures (1991-1996)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Digital Pictures</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0002413"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q1853876 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000064">
+    <dc:type>video game</dc:type>
+    <dcterms:title>DRIVING EMOTION TYPE-S (2000)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Driving Emotion Type-S</skos:prefLabel>
+    <skos:prefLabel xml:lang="zh">Type-S 大赛车</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">DRIVING EMOTION TYPE-S</skos:prefLabel>
+    <dcterms:date>2000</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q5308051"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/driving-emotion-type-s-"/>
+    <rdfs:seeAlso rdf:resource="https://ja.wikipedia.org/wiki/DRIVING_EMOTION_TYPE-S"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>レースゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <skos:prefLabel>Japan</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0011295"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q5308051 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000065">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Dual Hearts (2002)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Dual Hearts</skos:prefLabel>
+    <dcterms:date>2002</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q5310166"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/dual-hearts"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>アクションアドベンチャーゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>ソニー・コンピュータエンタテインメント (1993-2016)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Sony Interactive Entertainment</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>マトリックス  (1994-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Matrix Software</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0011672"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q5310166 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000066">
+    <dc:type>downloadable content,expansion pack</dc:type>
+    <dcterms:title>ダイイングライト:ザ・フォロイング (2016)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Dying Light: The Following</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">ダイイングライト:ザ・フォロイング</skos:prefLabel>
+    <dcterms:date>2016</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q22662531"/>
+    <rcgs:metacritic rdf:resource="https://www.metacritic.com/game/pc/dying-light-the-following"/>
+    <rdfs:seeAlso rdf:resource="https://ja.wikipedia.org/wiki/ダイイングライト:ザ・フォロイング"/>
+    <schema:locationCreated>PL</schema:locationCreated>
+    <schema:genre>アクションロールプレイングゲーム</schema:genre>
+    <schema:genre>サバイバルホラー</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>Warner Bros. Interactive Entertainment Inc. (2004-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Warner Bros. Interactive Entertainment</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>Techland (1991-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Techland</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0028944"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q22662531 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000067">
+    <dc:type>video game</dc:type>
+    <dcterms:title>EA Sports F1 2001 (2001)</dcterms:title>
+    <skos:prefLabel xml:lang="en">EA Sports F1 2001</skos:prefLabel>
+    <dcterms:date>2001</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q1168322"/>
+    <rcgs:freebase>/m/0k0vs2v</rcgs:freebase>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/f1-2001"/>
+    <rcgs:imdb rdf:resource="https://www.imdb.com/title/nm0443493"/>
+    <schema:locationCreated>GB</schema:locationCreated>
+    <schema:genre>レースシミュレーション</schema:genre>
+    <schema:gameLocation>ドイツ</schema:gameLocation>
+    <schema:gameLocation>フランス</schema:gameLocation>
+    <schema:gameLocation>イタリア</schema:gameLocation>
+    <schema:gameLocation>日本</schema:gameLocation>
+    <schema:gameLocation>ブラジル</schema:gameLocation>
+    <schema:gameLocation>スペイン</schema:gameLocation>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>Electronic Arts (1982-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>EA Sports</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>Image Space Incorporated (1992-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Image Space Incorporated</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0011540"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q1168322 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000068">
+    <dc:type>video game series</dc:type>
+    <dcterms:title>EA Sports F1 series (2003)</dcterms:title>
+    <skos:prefLabel xml:lang="en">EA Sports F1 series</skos:prefLabel>
+    <dcterms:date>2003</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q173759"/>
+    <rcgs:freebase>/m/07v1rv</rcgs:freebase>
+    <schema:genre>レースシミュレーション</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>Electronic Arts (1982-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>EA Sports</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>Image Space Incorporated (1992-)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Image Space Incorporated</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0015672"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q173759 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000069">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Ecco the Dolphin: Defender of the Future (2000)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Ecco the Dolphin: Defender of the Future</skos:prefLabel>
+    <dcterms:date>2000</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q3046924"/>
+    <rcgs:freebase>/m/02p2_35</rcgs:freebase>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/ecco-the-dolphin-defender-of-the-future"/>
+    <rcgs:metacritic rdf:resource="https://www.metacritic.com/game/dreamcast/ecco-the-dolphin-defender-of-the-future"/>
+    <schema:genre>アドベンチャーゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>セガ・エンタープライゼス (1965-2000)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Sega</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>Appaloosa Interactive (1982-2006)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Appaloosa Interactive</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0010860"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q3046924 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+  <rcgs:Work rdf:about="https://collection.rcgs.jp/s/rcgs/resource/WORK0000070">
+    <dc:type>video game</dc:type>
+    <dcterms:title>Elemental Gimmick Gear (1999)</dcterms:title>
+    <skos:prefLabel xml:lang="en">Elemental Gimmick Gear</skos:prefLabel>
+    <dcterms:date>1999</dcterms:date>
+    <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q2975639"/>
+    <rcgs:mobyGames rdf:resource="https://www.mobygames.com/game/egg-elemental-gimmick-gear"/>
+    <schema:locationCreated>JP</schema:locationCreated>
+    <schema:genre>アクションロールプレイングゲーム</schema:genre>
+    <dcterms:creator>
+      <foaf:Agent>
+        <dc:title>ハドソン (1973-2012)</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Hudson Soft</skos:prefLabel>
+      </foaf:Agent>
+    </dcterms:creator>
+    <schema:productionCompany>
+      <foaf:Agent>
+        <dc:title>バースデイ</dc:title>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <skos:prefLabel>Birthday</skos:prefLabel>
+      </foaf:Agent>
+    </schema:productionCompany>
+    <rcgs:Variation rdf:resource="https://collection.rcgs.jp/s/rcgs/resource/VARIATION0010603"/>
+    <dcterms:source>https://www.wikidata.org/wiki/Q2975639 (accessed 2019-08-27)</dcterms:source>
+  </rcgs:Work>
+</rdf:RDF>
