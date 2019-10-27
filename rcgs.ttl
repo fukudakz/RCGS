@@ -79,7 +79,7 @@ rcgs:ProvisionActivity a rdfs:Class;
 
 rcgs:Publication a rdfs:Class;
   rdfs:label "Publication"@en , "出版"@ja;
-  rdfs:subClassOf  rcgs:ProvisionActivity .s
+  rdfs:subClassOf  rcgs:ProvisionActivity .
 
 rcgs:Reference a rdfs:Class;
   rdfs:label "Reference"@en , "参照"@ja .
