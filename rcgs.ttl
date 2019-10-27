@@ -1,0 +1,592 @@
+@prefix rcgs: <http://www.rcgs.jp/terms/>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dcndl: <http://ndl.go.jp/dcndl/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.rcgs.jp/terms/> 
+    a owl:Ontology ;
+    rdfs:label "RCGS Video Game Terms"@en , "RCGSビデオゲームタームズ"@ja ;
+    skos:definition "A Vocabulary for Video Game Resource Description"@en , "ビデオゲームリソースの記述のための語彙"@ja ;
+    vann:preferredNamespacePrefix "rcgs" ;
+    vann:preferredNamespaceUri <http://www.rcgs.jp/terms/> ;
+    owl:versionInfo "1.2"^^xsd:string ;
+    dcterms:created "2019-03-28"^^xsd:date ;
+    dcterms:modified "2019-10-27"^^xsd:date ;
+    dcterms:license "CC0 1.0 Universal".
+
+######### Classes #########
+rcgs:ContentRating
+    a owl:Class ;
+    rdfs:label "ContentRating"@en, "コンテンツレーティング"@ja.
+
+rcgs:Contribution a owl:Class ;
+    rdfs:label "Contributior"@en, "貢献者"@ja .
+
+rcgs:Device a owl:Class ;
+    rdfs:label "Device"@en , "装置"@ja .
+
+rcgs:Distribution a owl:Class ;
+    rdfs:label "Distribution"@en , "頒布"@ja ;
+    rdfs:subClassOf rcgs:ProvisionActivity .
+
+rcgs:GameDevice a owl:Class ;
+    rdfs:label "GameDevice"@en , "ゲーム装置"@ja ;
+    rdfs:subClassOf rcgs:Device.
+
+rcgs:HardwarePlatform a owl:Class ;
+    rdfs:label "HardwarePlatform"@en , "ハードウェアプラットフォーム"@ja ;
+    rdfs:subClassOf rcgs:Platform .
+
+rcgs:InstanceProductType a owl:Class ;
+    rdfs:label "InstanceProductType"@en , "複製資料"@ja ;
+    rdfs:subClassOf rcgs:RelatedInstanse.
+
+rcgs:InstanceSingleton a owl:Class ;
+    rdfs:label "InstanceSingleton"@en , "単品資料"@ja ;
+    rdfs:subClassOf rcgs:RelatedInstanse.
+
+rcgs:Item a owl:Class ;
+    rdfs:label "Item"@en , "個別資料"@ja ;
+    skos:definition "パッケージの単一の例示"@ja.
+
+rcgs:Manufacture a owl:Class ;
+    rdfs:label "Manufacture"@en , "製造"@ja ;
+    rdfs:subClassOf rcgs:ProvisionActivity .
+
+rcgs:MediaFormat a owl:Class ;
+    rdfs:label "MediaFormat"@en , "メディア形式"@ja .
+
+rcgs:OnlinePackage a owl:Class ;
+    rdfs:label "OnlinePackage"@en , "オンラインパッケージ"@ja ;
+    rdfs:subClassOf rcgs:Package ;
+    skos:definition "オンラインリソースのパッケージ"@ja.
+
+rcgs:Package a owl:Class ;
+    rdfs:label "Package"@en , "パッケージ"@ja ;
+    skos:definition "物理的に作品を具体化するビデオゲームの頒布パッケージ。"@ja.
+
+rcgs:PeripheralEquipment a owl:Class ;
+    rdfs:label "PeripheralEquipment"@en , "周辺危機"@ja ;
+    rdfs:subClassOf rcgs:Device.
+
+rcgs:PhysicalMedia a owl:Class ;
+    rdfs:label "PhysicalMedia"@en , "物理メディア"@ja ;
+    rdfs:subClassOf rcgs:MediaFormat .
+
+rcgs:PhysicalPackage a owl:Class ;
+    rdfs:label "PhysicalPackage"@en , "物理パッケージ"@ja ;
+    rdfs:subClassOf rcgs:Package ;
+    skos:definition "物理的なキャリアを有するパッケージ。"@ja.
+
+rcgs:Platform a owl:Class ;
+    rdfs:label "Platform"@en , "プラットフォーム"@ja .
+
+rcgs:Production a owl:Class ;
+    rdfs:label "Production"@en , "制作"@ja ;
+    rdfs:subClassOf rcgs:ProvisionActivity.
+
+rcgs:ProvisionActivity a owl:Class ;
+    rdfs:label "ProvisionActivity"@en , "供給活動"@ja .
+
+rcgs:Publication a owl:Class ;
+    rdfs:label "Publication"@en , "出版"@ja ;
+    rdfs:subClassOf rcgs:ProvisionActivity .
+
+rcgs:Reference a owl:Class ;
+    rdfs:label "Reference"@en , "参照"@ja .
+
+rcgs:RelatedInstanse a owl:Class ;
+    rdfs:label "RelatedInstanse"@en , "関連資料"@ja ;
+    skos:definition "ビデオゲームに関連する、物理的に作品を具体化するリソース"@ja.
+
+rcgs:Software a owl:Class ;
+    rdfs:label "Software"@en , "ソフトウェア"@ja ;
+    rdfs:subClassOf rcgs:MediaFormat .
+
+rcgs:SoftwarePlatform a owl:Class ;
+    rdfs:label "SoftwarePlatform"@en, "ソフトウェアプラットフォーム"@ja ;
+    rdfs:subClassOf rcgs:Platform .
+
+rcgs:Variation a owl:Class ;
+    rdfs:label "Variation"@en , "バリエーション"@ja ;
+    skos:definition "同一の経験を提供するビデオゲームの内容"@ja .
+
+rcgs:VideoGame a owl:Class ;
+    rdfs:label "VideoGame"@en , "ビデオゲーム"@ja ;
+    rdfs:subClassOf rcgs:Work ;
+    skos:definition "ビデオゲームの創作"@ja.
+
+rcgs:Work a owl:Class ;
+    rdfs:label "Work"@en , "作品"@ja ;
+    skos:definition "個別の創作の内容"@ja.
+
+
+######### Property #########
+
+rcgs:abbreviatedTitle a owl:ObjectProperty ;
+    rdfs:label "省略タイトル"@ja ;
+    skos:definition "リソースのタイトルの省略形"@ja ;
+    rdfs:domain rcgs:RelatedInstanse,
+    rcgs:Package .
+
+rcgs:aggregatedBy a owl:ObjectProperty ;
+    rdfs:label "集約元のリソース"@ja ;
+    skos:definition "リソースが集約されるリソース"@ja ;
+    rdfs:domain rcgs:Variation;
+    rdfs:range rcgs:Variation .
+
+rcgs:aggregates a owl:ObjectProperty ;
+    rdfs:label "集約されたリソース"@ja ;
+    skos:definition "リソースが集約するバリエーション"@ja ;
+    rdfs:domain rcgs:Variation;
+    rdfs:range rcgs:Variation .
+
+rcgs:aspectRatio a owl:ObjectProperty ;
+    rdfs:label "アスペクト比"@ja ;
+    skos:definition "リソースの映像の動画の幅と高さの数値の比率"@ja ;
+    rdfs:domain rcgs:Variation;
+    rdfs:range <http://rdaregistry.info/termList/AspectRatio/1001>,
+    <http://rdaregistry.info/termList/AspectRatio/1002>,
+    <http://rdaregistry.info/termList/AspectRatio/1003> .
+
+rcgs:bugfix a owl:ObjectProperty ;
+    rdfs:label "バグフィックスされたリソース"@ja ;
+    skos:definition "リソースの同一著作のバグが修正されたリソース"@ja ;
+    rdfs:domain rcgs:Variation;
+    rdfs:range rcgs:Variation .
+
+rcgs:complements a owl:ObjectProperty ;
+    rdfs:label "補完されたリソース"@ja ;
+    skos:definition "リソースの補完されたリソース"@ja ;
+    rdfs:domain rcgs:Work,
+    rcgs:Variation;
+    rdfs:range rcgs:Work,
+    rcgs:Variation .
+
+rcgs:connects a owl:ObjectProperty ;
+    rdfs:label "接続する装置"@ja ;
+    skos:definition "装置に接続する装置"@ja ;
+    rdfs:domain rcgs:Device;
+    rdfs:range rcgs:Device .
+
+rcgs:contentType a owl:ObjectProperty ;
+    rdfs:label "内容種別"@ja ;
+    skos:definition "リソースの内容の一般形による種別"@ja ;
+    rdfs:domain rcgs:Variation;
+    rdfs:range 	<http://rdaregistry.info/termList/RDAContentType/1001>,
+    <http://rdaregistry.info/termList/RDAContentType/1002>,
+    <http://rdaregistry.info/termList/RDAContentType/1003>,
+    <http://rdaregistry.info/termList/RDAContentType/1004>,
+    <http://rdaregistry.info/termList/RDAContentType/1005>,
+    <http://rdaregistry.info/termList/RDAContentType/1006>,
+    <http://rdaregistry.info/termList/RDAContentType/1007>,
+    <http://rdaregistry.info/termList/RDAContentType/1008>,
+    <http://rdaregistry.info/termList/RDAContentType/1009>,
+    <http://rdaregistry.info/termList/RDAContentType/1010>,
+    <http://rdaregistry.info/termList/RDAContentType/1011>,
+    <http://rdaregistry.info/termList/RDAContentType/1012>,
+    <http://rdaregistry.info/termList/RDAContentType/1013>,
+    <http://rdaregistry.info/termList/RDAContentType/1014>,
+    <http://rdaregistry.info/termList/RDAContentType/1015>,
+    <http://rdaregistry.info/termList/RDAContentType/1016>,
+    <http://rdaregistry.info/termList/RDAContentType/1017>,
+    <http://rdaregistry.info/termList/RDAContentType/1018>,
+    <http://rdaregistry.info/termList/RDAContentType/1019>,
+    <http://rdaregistry.info/termList/RDAContentType/1020>,
+    <http://rdaregistry.info/termList/RDAContentType/1021>,
+    <http://rdaregistry.info/termList/RDAContentType/1022>,
+    <http://rdaregistry.info/termList/RDAContentType/1023> .
+
+rcgs:controller a owl:ObjectProperty ;
+    rdfs:label "操作入力"@ja ;
+    skos:definition "リソースのコントローラーの数量や入力端子などの仕様"@ja ;
+    rdfs:domain rcgs:Device .
+
+rcgs:crossPlay a owl:ObjectProperty ;
+    rdfs:label "クロスプレイ可能なリソース"@ja ;
+    skos:definition "リソースとクロスプラットフォームプレイ可能なリソース"@ja ;
+    rdfs:domain rcgs:Variation;
+    rdfs:range rcgs:Variation .
+
+rcgs:deviceImplimented a owl:ObjectProperty ;
+    rdfs:label "実装される装置"@ja ;
+    skos:definition "プラットフォームを実装する装置"@ja ;
+    rdfs:domain rcgs:Platform;
+    rdfs:range rcgs:Device .
+
+rcgs:deviceType a owl:ObjectProperty ;
+    rdfs:label "種別"@ja ;
+    skos:definition "装置の一般形による分類"@ja ;
+    rdfs:domain rcgs:Device;
+    rdfs:range rcgs:GameDevice,
+    rcgs:PeripheralEquipment .
+
+rcgs:digitalFileType a owl:ObjectProperty ;
+    rdfs:label "デジタルファイル種別"@ja ;
+    skos:definition "コンピュータファイルとして符号化されたデータの内容の一般形の分類"@ja ;
+    rdfs:domain rcgs:Package;
+    rdfs:range 	<http://rdaregistry.info/termList/fileType/1001>,
+    <http://rdaregistry.info/termList/fileType/1002>,
+    <http://rdaregistry.info/termList/fileType/1003>,
+    <http://rdaregistry.info/termList/fileType/1004>,
+    <http://rdaregistry.info/termList/fileType/1005>,
+    <http://rdaregistry.info/termList/fileType/1006> .
+
+rcgs:dimension a owl:ObjectProperty ;
+    rdfs:label "大きさ"@ja ;
+    skos:definition "リソースの大きさの測定値"@ja ;
+    rdfs:domain rcgs:RelatedInstanse,
+    rcgs:PhysicalPackage,
+    rcgs:Device,
+    dcterms:MediaTypeOrExtent,
+    rcgs:MediaFormat .
+
+
+rcgs:distributor a owl:ObjectProperty ;
+    rdfs:label "頒布者"@ja ;
+    skos:definition "リソースを頒布した主体"@ja ;
+    rdfs:domain rcgs:InstanceProductType,
+    rcgs:Package;
+    rdfs:range foaf:Agent .
+
+rcgs:donor a owl:ObjectProperty ;
+    rdfs:label "寄贈者"@ja ;
+    skos:definition "個別資料を寄贈した前の所有者である主体"@ja ;
+    rdfs:domain rcgs:Item;
+    rdfs:range foaf:Agent .
+
+rcgs:embodiment a owl:ObjectProperty ;
+    rdfs:label "収録されたパッケージ"@ja ;
+    skos:definition "バリエーションを具体化するパッケージ"@ja ;
+    rdfs:domain rcgs:Variation;
+    rdfs:range rcgs:Package .
+
+rcgs:embodimentOf a owl:ObjectProperty ;
+    rdfs:label "収録するバリエーション"@ja ;
+    skos:definition "パッケージにより具体化されるバリエーション"@ja ;
+    rdfs:domain rcgs:Package;
+    rdfs:range rcgs:Variation .
+
+rcgs:exemplar a owl:ObjectProperty ;
+    rdfs:label "例示としての個別資料"@ja ;
+    skos:definition "リソースを例示するリソース"@ja ;
+    rdfs:domain rcgs:InstanceProductType,
+    rcgs:Package;
+    rdfs:range rcgs:Item .
+
+rcgs:exemplarOf a owl:ObjectProperty ;
+    rdfs:label "例示されたパッケージ"@ja ;
+    skos:definition "個別資料により例示されるパッケージ"@ja ;
+    rdfs:domain rcgs:Item;
+    rdfs:range rcgs:Package .
+
+rcgs:expandedAs a owl:ObjectProperty ;
+    rdfs:label "増補されたリソース"@ja ;
+    skos:definition "リソースの同一著作の増補であるリソース"@ja ;
+    rdfs:domain rcgs:Work,
+    rcgs:Variation;
+    rdfs:range rcgs:Work,
+    rcgs:Variation .
+
+rcgs:formatOfSubunit a owl:ObjectProperty ;
+    rdfs:label "サブユニット形式"@ja ;
+    skos:definition "リソースのサブユニットのメディア形式とその数量や大きさ"@ja ;
+    rdfs:domain rcgs:RelatedInstanse,
+    rcgs:Package;
+    rdfs:range dcterms:MediaTypeOrExtent .
+
+rcgs:freebase a owl:ObjectProperty ;
+    rdfs:label "Freebase ID"@ja ;
+    skos:definition "リソースのFreebaseの識別子"@ja ;
+    rdfs:domain rcgs:Work .
+
+rcgs:imdb a owl:ObjectProperty ;
+    rdfs:label "Imdb ID"@ja ;
+    skos:definition "リソースのImdbの識別子"@ja ;
+    rdfs:domain rcgs:Work .
+
+rcgs:inserts a owl:ObjectProperty ;
+    rdfs:label "挿入されたパッケージ"@ja ;
+    skos:definition "リソースに挿入されたパッケージ"@ja ;
+    rdfs:domain rcgs:Device;
+    rdfs:range rcgs:Package .
+
+rcgs:jpNumber a owl:ObjectProperty ;
+    rdfs:label "全国書誌番号"@ja ;
+    skos:definition "リソースの全国書誌番号による識別子"@ja ;
+    rdfs:domain rcgs:RelatedInstanse,
+    rcgs:Package .
+
+rcgs:localizedAs a owl:ObjectProperty ;
+    rdfs:label "ローカライズされたバリエーション"@ja ;
+    skos:definition "リソースが同一著作のローカライズされたリソース"@ja ;
+    rdfs:domain rcgs:Variation;
+    rdfs:range rcgs:Variation .
+
+rcgs:manufacturer a owl:ObjectProperty ;
+    rdfs:label "製造者"@ja ;
+    skos:definition "リソースを製造した主体"@ja ;
+    rdfs:domain rcgs:InstanceProductType,
+    rcgs:Package;
+    rdfs:range foaf:Agent .
+
+rcgs:metacritic a owl:ObjectProperty ;
+    rdfs:label "Metacritic ID"@ja ;
+    skos:definition "リソースのMetacriticsの識別子"@ja ;
+    rdfs:domain rcgs:Work .
+
+rcgs:middlewareOrGameEngine a owl:ObjectProperty ;
+    rdfs:label "ミドルウェア・ゲームエンジン"@ja ;
+    skos:definition "リソースの制作に用いられたミドルウェアもしくはゲームエンジン"@ja ;
+    rdfs:domain rcgs:Variation,
+    rcgs:Package .
+
+rcgs:mobyGames a owl:ObjectProperty ;
+    rdfs:label "MobyGames ID"@ja ;
+    skos:definition "MobyGamesの著作の識別子"@ja ;
+    rdfs:domain rcgs:Work .
+
+rcgs:modeOfIssuance a owl:ObjectProperty ;
+    rdfs:label "刊行方式"@ja ;
+    skos:definition "単独、複数部分での発行、更新方法ないしは終了の決定を反映した分類"@ja ;
+    rdfs:domain rcgs:InstanceProductType,
+    rcgs:Package;
+    rdfs:range <http://rdaregistry.info/termList/ModeIssue/1001>,
+    <http://rdaregistry.info/termList/ModeIssue/1002>,
+    <http://rdaregistry.info/termList/ModeIssue/1003>,
+    <http://rdaregistry.info/termList/ModeIssue/1004> .
+
+rcgs:modelNumber a owl:ObjectProperty ;
+    rdfs:label "型番"@ja ;
+    skos:definition "リソースの供給者が定義する型番による識別子"@ja ;
+    rdfs:domain rcgs:RelatedInstanse,
+    rcgs:Device,
+    rcgs:Package .
+
+rcgs:natureOfContent a owl:ObjectProperty ;
+    rdfs:label "内容の性質"@ja ;
+    skos:definition "リソースの主要なコンテンツの特性"@ja ;
+    rdfs:domain rcgs:Work .
+
+rcgs:ndlAuthoritiesID a owl:ObjectProperty ;
+    rdfs:label "国立国会図書館典拠ID"@ja ;
+    skos:definition "主体の国立国会図書館典拠ファイルによる識別子"@ja ;
+    rdfs:domain foaf:Agent .
+
+rcgs:ndlBiBID a owl:ObjectProperty ;
+    rdfs:label "国会図書館書誌ID"@ja ;
+    skos:definition "リソースの国会図書館書誌IDによる識別子"@ja ;
+    rdfs:domain rcgs:RelatedInstanse,
+    rcgs:Package .
+
+rcgs:oclcNumber a owl:ObjectProperty ;
+    rdfs:label "OCLCナンバー"@ja ;
+    skos:definition "リソースのOCLCナンバーによる識別子"@ja ;
+    rdfs:domain rcgs:RelatedInstanse,
+    rcgs:Package .
+
+rcgs:page a owl:ObjectProperty ;
+    rdfs:label "ページ数"@ja ;
+    skos:definition "冊子体における参照する部分の指定である単一か複数のページ"@ja ;
+    rdfs:domain rcgs:Reference .
+
+rcgs:parallelTitle a owl:ObjectProperty ;
+    rdfs:label "並列タイトル"@ja ;
+    skos:definition "リソースの主要なタイトル以外の表記されるタイトル"@ja ;
+    rdfs:domain rcgs:RelatedInstanse,
+    rcgs:Package .
+
+rcgs:porting a owl:ObjectProperty ;
+    rdfs:label "移植されたリソース"@ja ;
+    skos:definition "移植であるリソース"@ja ;
+    rdfs:domain rcgs:Variation;
+    rdfs:range rcgs:Variation .
+
+rcgs:powerConsumption a owl:ObjectProperty ;
+    rdfs:label "消費電力"@ja ;
+    skos:definition "リソースの消費電力"@ja ;
+    rdfs:domain rcgs:Device .
+
+rcgs:precedes a owl:ObjectProperty ;
+    rdfs:label "先行のリソース"@ja ;
+    skos:definition "リソースに先行するリソース"@ja ;
+    rdfs:domain rcgs:Work, rcgs:Variation;
+    rdfs:range rcgs:Work, rcgs:Variation .
+
+rcgs:producer a owl:ObjectProperty ;
+    rdfs:label "制作者"@ja ;
+    skos:definition "非複製物であるリソースを制作した主体"@ja ;
+    rdfs:domain rcgs:InstanceProductType,
+    rcgs:Package;
+    rdfs:range foaf:Agent .
+
+rcgs:provisionActivity a owl:ObjectProperty ;
+    rdfs:label "供給活動"@ja ;
+    skos:definition "リソースの供給に関連する主体や場所や日付の情報"@ja ;
+    rdfs:domain rcgs:InstanceProductType,
+    rcgs:Package;
+    rdfs:range rcgs:ProvisionActivity .
+
+rcgs:publisher a owl:ObjectProperty ;
+    rdfs:label "出版者"@ja ;
+    skos:definition "リソースを出版した主体"@ja ;
+    rdfs:domain rcgs:InstanceProductType,
+    rcgs:Package;
+    rdfs:range foaf:Agent .
+
+rcgs:ratingContentDescriptor a owl:ObjectProperty ;
+    rdfs:label "レーティング内容記述子"@ja ;
+    skos:definition "年齢レーティングの要因を示す内容の種別の分類"@ja ;
+    rdfs:domain rcgs:Package .
+
+rcgs:recordID a owl:ObjectProperty ;
+    rdfs:label "レコードID"@ja ;
+    skos:definition "リソースの記述単位毎に付与される識別子"@ja ;
+    rdfs:domain rcgs:RelatedInstanse,
+    rcgs:ProvisionActivity,
+    rcgs:Device,
+    dcterms:MediaTypeOrExtent,
+    rcgs:Platform,
+    rcgs:Work,
+    foaf:Agent,
+    rcgs:ContentRating,
+    rcgs:Variation,
+    rcgs:MediaFormat,
+    rcgs:Package,
+    rcgs:Item .
+
+rcgs:relatedAgent a owl:ObjectProperty ;
+    rdfs:label "関連する主体"@ja ;
+    skos:definition "著作に関連を持つ主体"@ja ;
+    rdfs:domain rcgs:Work;
+    rdfs:range foaf:Agent .
+
+rcgs:relatedOrganization a owl:ObjectProperty ;
+    rdfs:label "関連する団体"@ja ;
+    skos:definition "団体に関連のある団体"@ja ;
+    rdfs:domain foaf:Organization;
+    rdfs:range foaf:Organization .
+
+rcgs:remadeAs a owl:ObjectProperty ;
+    rdfs:label "リメイクされたリソース"@ja ;
+    skos:definition "リソースのリメイク元であるリソース"@ja ;
+    rdfs:domain rcgs:Work;
+    rdfs:range rcgs:Work .
+
+rcgs:responsibilityStatement a owl:ObjectProperty ;
+    rdfs:label "責任表示"@ja ;
+    skos:definition "リソースのタイトルに関する責任の表示"@ja ;
+    rdfs:domain rcgs:RelatedInstanse,
+    rcgs:Package .
+
+rcgs:role a owl:ObjectProperty ;
+    rdfs:label "役割"@ja ;
+    skos:definition "貢献の形式や役割"@ja ;
+    rdfs:domain rcgs:Contribution;
+    rdfs:range schema:roleName .
+
+rcgs:sequel a owl:ObjectProperty ;
+    rdfs:label "物語上の後続の著作"@ja ;
+    skos:definition "著作に物語上後続する著作"@ja ;
+    rdfs:domain rcgs:Work;
+    rdfs:range rcgs:Work .
+
+rcgs:sequelTo a owl:ObjectProperty ;
+    rdfs:label "物語上の先行のリソース"@ja ;
+    skos:definition "リソースに物語上先行するリソース"@ja ;
+    rdfs:domain rcgs:Work;
+    rdfs:range rcgs:Work .
+
+rcgs:seriesStatement a owl:ObjectProperty ;
+    rdfs:label "シリーズ表示"@ja ;
+    skos:definition "リソースが属するシリーズのタイトルやシリーズ内ナンバーの表示"@ja ;
+    rdfs:domain rcgs:InstanceProductType,
+    rcgs:Package .
+
+rcgs:specConnection a owl:ObjectProperty ;
+    rdfs:label "接続仕様"@ja ;
+    skos:definition "リソースの機器接続に関する仕様"@ja ;
+    rdfs:domain rcgs:Device .
+
+rcgs:spinOff a owl:ObjectProperty ;
+    rdfs:label "スピンオフされたリソース"@ja ;
+    skos:definition "リソースのスピンオフされたリソース"@ja ;
+    rdfs:domain rcgs:Work;
+    rdfs:range rcgs:Work .
+
+rcgs:subseriesStatement a owl:ObjectProperty ;
+    rdfs:label "サブシリーズ表示"@ja ;
+    skos:definition "リソースが属するサブシリーズのタイトルやサブシリーズ内ナンバーの表示"@ja ;
+    rdfs:domain rcgs:InstanceProductType,
+    rcgs:Package .
+
+rcgs:succeeds a owl:ObjectProperty ;
+    rdfs:label "後続のリソース"@ja ;
+    skos:definition "リソースに後続するリソース"@ja ;
+    rdfs:domain rcgs:Work,
+    rcgs:Variation;
+    rdfs:range rcgs:Work,
+    rcgs:Variation .
+
+rcgs:supplements a owl:ObjectProperty ;
+    rdfs:label "補完されたリソース"@ja ;
+    skos:definition "リソースの同一著作の補完されたリソース"@ja ;
+    rdfs:domain rcgs:Variation;
+    rdfs:range rcgs:Variation .
+
+rcgs:trial a owl:ObjectProperty ;
+    rdfs:label "体験版のリソース"@ja ;
+    skos:definition "リソースの同一著作の体験版のリソース"@ja ;
+    rdfs:domain rcgs:Variation;
+    rdfs:range rcgs:Variation .
+
+rcgs:twitch a owl:ObjectProperty ;
+    rdfs:label "Twitch Game ID"@ja ;
+    skos:definition "リソースのTwitchの識別子"@ja ;
+    rdfs:domain rcgs:Work .
+
+rcgs:twitterID a owl:ObjectProperty ;
+    rdfs:label "twitter ID"@ja ;
+    skos:definition "リソースのTwitterアカウントの識別子"@ja ;
+    rdfs:domain foaf:Agent .
+
+rcgs:variantTitle a owl:ObjectProperty ;
+    rdfs:label "その他のタイトル"@ja ;
+    skos:definition "リソースの他のタイトルの属性で記録されないタイトル"@ja ;
+    rdfs:domain rcgs:Package .
+
+rcgs:variation a owl:ObjectProperty ;
+    rdfs:label "作品のバリエーション"@ja ;
+    skos:definition "作品を実現するバリエーション"@ja ;
+    rdfs:domain rcgs:Work;
+    rdfs:range rcgs:Variation .
+
+rcgs:variationOf a owl:ObjectProperty ;
+    rdfs:label "作品"@ja ;
+    skos:definition "バリエーションにより実現される作品"@ja ;
+    rdfs:domain rcgs:Variation;
+    rdfs:range rcgs:Work .
+
+rcgs:viafID a owl:ObjectProperty ;
+    rdfs:label "Virtual International Authority File ID"@en , "バーチャル国際典拠ファイルID"@ja ;
+    skos:definition "リソースのバーチャル国際典拠ファイルによる識別子"@ja ;
+    rdfs:domain foaf:Agent .
+
+rcgs:wikidataID a owl:ObjectProperty ;
+    rdfs:label "Wikidata ID"@ja ;
+    skos:definition "リソースのWikidataによる識別子"@ja ;
+    rdfs:domain foaf:Agent,
+    rcgs:ContentRating .
+
+rcgs:youtubeGaming a owl:ObjectProperty ;
+    rdfs:label "Youtube Gaming ID"@ja ;
+    skos:definition "リソースのYoutube Gamingの識別子"@ja ;
+    rdfs:domain rcgs:Work .
